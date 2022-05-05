@@ -1,8 +1,4 @@
 public class Airplane {
-    String airplaneName;
-    String modelOfAirplane;
-    int numberOfStandardPassengers;
-    int numberOfBusinessClassPassengers;
 
     public static void printAirplaneInfo(String airplaneName, String modelOfAirplane) {
         System.out.println("Type of Airplane : \nName: " + airplaneName + " ,\nModel: " + modelOfAirplane + ".");
